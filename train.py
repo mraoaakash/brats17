@@ -17,8 +17,9 @@ import time
 import os
 import sys
 import tensorflow as tf
-from tensorflow.contrib.data import Iterator
-from tensorflow.contrib.layers.python.layers import regularizers
+import logging 
+# from tensorflow.contrib.data import Iterator
+from tensorflow.keras import regularizers
 from niftynet.layer.loss_segmentation import LossFunction
 from util.data_loader import *
 from util.train_test_func import *
